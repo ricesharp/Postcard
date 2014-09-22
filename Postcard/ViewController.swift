@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtMessage: UITextField!
     @IBOutlet weak var btnSend: UIButton!
  
+    @IBOutlet weak var lblName: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,10 +37,17 @@ class ViewController: UIViewController {
         lblMessage.hidden = false
         
         txtMessage.text = ""
-        
         txtMessage.resignFirstResponder()
         
         lblMessage.textColor = UIColor.redColor()
+        
+        // Name
+        lblName.text = txtName.text
+        lblName.hidden = false
+        lblName.textColor = UIColor.blueColor()
+        txtName.resignFirstResponder()
+        txtName.text = ""
+        
         
         btnSend.setTitle("Sent", forState: UIControlState.Normal)
     }
