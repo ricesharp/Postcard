@@ -13,6 +13,9 @@
 		7B3BEC9F19C71D8800CE9927 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3BEC9E19C71D8800CE9927 /* Images.xcassets */; };
 		7B3BECA219C71D8800CE9927 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B3BECA019C71D8800CE9927 /* LaunchScreen.xib */; };
 		7B3BECAE19C71D8800CE9927 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BECAD19C71D8800CE9927 /* PostcardTests.swift */; };
+		7B3BECB919C72CEE00CE9927 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B3BECB719C72CEE00CE9927 /* AlbertEinsteinStamp.jpg */; };
+		7B3BECBA19C72CEE00CE9927 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7B3BECB819C72CEE00CE9927 /* SagradaFamilia.jpeg */; };
+		7B3BECBC19C72EB400CE9927 /* leaf_nature_iphone_6_wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B3BECBB19C72EB400CE9927 /* leaf_nature_iphone_6_wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7B3BECA719C71D8800CE9927 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3BECAC19C71D8800CE9927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3BECAD19C71D8800CE9927 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		7B3BECB719C72CEE00CE9927 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
+		7B3BECB819C72CEE00CE9927 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		7B3BECBB19C72EB400CE9927 /* leaf_nature_iphone_6_wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leaf_nature_iphone_6_wallpaper.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		7B3BEC9519C71D8800CE9927 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B3BECBB19C72EB400CE9927 /* leaf_nature_iphone_6_wallpaper.jpg */,
+				7B3BECB719C72CEE00CE9927 /* AlbertEinsteinStamp.jpg */,
+				7B3BECB819C72CEE00CE9927 /* SagradaFamilia.jpeg */,
 				7B3BEC9619C71D8800CE9927 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3BECB919C72CEE00CE9927 /* AlbertEinsteinStamp.jpg in Resources */,
+				7B3BECBC19C72EB400CE9927 /* leaf_nature_iphone_6_wallpaper.jpg in Resources */,
 				7B3BEC9D19C71D8800CE9927 /* Main.storyboard in Resources */,
 				7B3BECA219C71D8800CE9927 /* LaunchScreen.xib in Resources */,
 				7B3BEC9F19C71D8800CE9927 /* Images.xcassets in Resources */,
+				7B3BECBA19C72CEE00CE9927 /* SagradaFamilia.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

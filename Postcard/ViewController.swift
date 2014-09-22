@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var lblMessage: UILabel!
+    @IBOutlet weak var txtName: UITextField!
+    @IBOutlet weak var txtMessage: UITextField!
+    @IBOutlet weak var btnSend: UIButton!
+ 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +27,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
+    @IBAction func btnSendPressed(sender: UIButton) {
+        lblMessage.text = "\(txtMessage.text)"
+        lblMessage.hidden = false
+        
+        txtMessage.text = ""
+        
+        txtMessage.resignFirstResponder()
+        
+        lblMessage.textColor = UIColor.redColor()
+        
+        btnSend.setTitle("Sent", forState: UIControlState.Normal)
+    }
 }
 
