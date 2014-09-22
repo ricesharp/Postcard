@@ -29,6 +29,9 @@ class ViewController: UIViewController {
 
     
     @IBAction func btnSendPressed(sender: UIButton) {
+        
+        // add a comment to test github
+        
         lblMessage.text = "\(txtMessage.text)"
         lblMessage.hidden = false
         
